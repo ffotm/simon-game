@@ -1,6 +1,6 @@
 # Simon Game
 
-The **Simon Game** is a simple memory-based web game where players must repeat an increasingly long sequence of colors and sounds. It tests focus, memory, and reflexes — all within an engaging and minimal interface.
+The **Simon Game** is a simple memory-based web/Robotics game where players must repeat an increasingly long sequence of colors and sounds. It tests focus, memory, and reflexes — all within an engaging and minimal interface.
 
 ## Features
 
@@ -12,7 +12,7 @@ The **Simon Game** is a simple memory-based web game where players must repeat a
 
 - Game-over alert and reset functionality
 
-- Responsive and lightweight design using HTML, CSS, and JavaScript only
+- Responsive and lightweight design using HTML, CSS, and JavaScript also with a Robotics version 
 
 ## Project Structure
 
@@ -22,6 +22,7 @@ SimonGame/
 ├── index.html        # Main game interface
 ├── style.css         # Game styling and layout
 ├── script.js         # Core game logic (sequence generation and event handling)
+├── rs.ino            # hardware code 
 └── sounds/           # Audio files for each color (optional)
 ```
 
@@ -45,6 +46,8 @@ SimonGame/
 
 - JavaScript (ES6) — logic and interactivity
 
+- C++ — hardware logic code
+
 ## Future Improvements
 
 - Add difficulty modes (easy, medium, hard)
@@ -57,8 +60,9 @@ SimonGame/
 
 1. Clone this repository:
 
-2. git clone https://github.com/your-username/simon-game.git
+2. git clone https://github.com/ffotm/simon-game.git
 
 3. Open index.html in your browser.
 
 4. Start the game and test your memory.
+
